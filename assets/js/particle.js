@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 12,
+      "value": 20,
       "density": {
         "enable": true,
         "value_area": 800
@@ -55,7 +55,7 @@ particlesJS("particles-js", {
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 8,
       "direction": "none",
       "random": true,
       "straight": false,
