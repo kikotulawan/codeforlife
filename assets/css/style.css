@@ -317,3 +317,27 @@ canvas {
   .social-button--npmjs::after {
     background: #c12127;
   }
+
+  @media (max-width: 500px) {
+  h3 .name {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+    
+  h3 .text {
+      font-weight: 200;
+      letter-spacing: 1px;
+      font-size: 1rem;
+  }
+  
+  .desc {
+    font-size: small;
+  }
+
+  .social-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  }
